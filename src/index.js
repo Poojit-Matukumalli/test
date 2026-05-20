@@ -1,0 +1,39 @@
+module.exports = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Static Site</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+    header { background: #222; color: white; padding: 20px; text-align: center; }
+    nav { background: #333; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 900px; margin: 40px auto; padding: 20px; background: white; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    h1 { margin-bottom: 20px; color: #222; }
+    p { margin-bottom: 15px; }
+    footer { text-align: center; padding: 20px; background: #222; color: white; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Static Site</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <h1>Home Page</h1>
+    <p>This is a static site generated with Node.js and npm. All pages are pure HTML, CSS, and JavaScript.</p>
+    <p>Run <code>npm build</code> to generate the static site in the <code>dist/</code> folder.</p>
+    <p>Each page is defined as a Node.js module in the <code>src/</code> directory that exports HTML content.</p>
+  </main>
+  <footer>
+    <p>&copy; 2026 Static Site. Built with Node.js</p>
+  </footer>
+</body>
+</html>`;

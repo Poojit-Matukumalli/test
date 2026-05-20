@@ -1,0 +1,13 @@
+{
+  "name": "static-site-generator",
+  "version": "1.0.0",
+  "description": "Simple Node-based static site generator",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": ["static-site", "generator"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
