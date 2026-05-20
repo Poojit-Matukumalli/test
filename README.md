@@ -1,6 +1,7 @@
-# Static Site Generator
+# Test Static Site Generator
 
 A simple Node.js-based static site generator that converts source files into static HTML.
+This is for testing
 
 ## Project Structure
 
