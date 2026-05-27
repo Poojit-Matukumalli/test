@@ -1,0 +1,9 @@
+# A toml config file for vire CI/CD (The other project I'm building)
+
+[details]
+framework = "eleventy"
+package_manager = "npm"
+
+[project]
+framework_version = "20"
+output_dir = "/dist"
