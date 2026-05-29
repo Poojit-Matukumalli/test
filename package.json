@@ -1,13 +1,15 @@
 {
   "name": "static-site-generator",
   "version": "1.0.0",
-  "description": "Simple Node-based static site generator",
-  "main": "build.js",
+  "description": "Vite-based static site generator",
+  "main": "vite.config.js",
   "scripts": {
-    "build": "node build.js"
+    "build": "vite build"
   },
-  "keywords": ["static-site", "generator"],
+  "keywords": ["static-site", "generator", "vite"],
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
