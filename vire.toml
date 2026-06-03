@@ -6,7 +6,7 @@ framework = "vite"
 package_manager = "npm"
 
 [project]
-node_version = "22"    # Node version
+framework_version = "22"    # Node version
 output_dir = "dist"   # Match this with the framework's output directory
 dependencies=true # Use true if it needs npm install. otherwise use false
 
