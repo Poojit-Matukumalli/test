@@ -2,13 +2,13 @@
 # Note, Vire only reads the vire.toml in main.
 
 [details]
-framework = "eleventy"
+framework = "vite"
 package_manager = "npm"
 
 [project]
-node_version = "20"    # Node version
+node_version = "22"    # Node version
 output_dir = "dist"   # Match this with the framework's output directory
-dependencies="present" # Use present if it needs npm install. otherwise use absent
+dependencies=true # Use true if it needs npm install. otherwise use false
 
 [deploy]
 allow = ["main", "prod"] #Allowlist of branches
