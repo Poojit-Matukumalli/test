@@ -1,0 +1,18 @@
+# Deployment configuration for vire (Reads ONLY FROM main/master).
+[deploy]
+branches = ["main", "prod", "dev"] #Allowlist of branches
+
+[deploy.main] #subtable, allow auto deployment for main
+auto = true
+manual_review = true # Default shoutld be true (logically speaking)
+environment = "production"
+
+[deploy.prod]
+auto = false
+manual_review = true
+environment = "production"
+
+[deploy.prod]
+auto = false
+manual_review = false
+environment = dev
