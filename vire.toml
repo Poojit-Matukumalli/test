@@ -2,7 +2,7 @@
 # Note, Vire only reads the vire.toml in main.
 
 [details]
-framework = "vite"
+framework = "vit"
 package_manager = "npm"
 
 [project]
