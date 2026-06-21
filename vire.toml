@@ -2,8 +2,8 @@
 # Note, Vire only reads the vire.toml in main.
 
 [details]
-framework = "vit"
-package_manager = "npm"
+framework = "vite"
+package_manager = "np"
 
 [project]
 framework_version = "22"    # Node version
