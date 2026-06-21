@@ -1,9 +1,7 @@
 # A toml config file for vire CI/CD (The other project I'm building)
 # Note, Vire only reads the vire.toml in main.
 
-[details]
-framework = "vite"
-package_manager = "np"
+ager = "np"
 
 [project]
 framework_version = "22"    # Node version
