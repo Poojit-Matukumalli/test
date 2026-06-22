@@ -5,6 +5,7 @@
   "main": "vite.config.js",
   "scripts": {
     "build": "vite build"
+    "postinstall" : "echo 'done'"
   },
   "keywords": ["static-site", "generator", "vite"],
   "author": "",
